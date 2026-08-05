@@ -53,11 +53,13 @@ This repository complements the survey:
 * [ICLR 2025 FM-Wild Workshop] Agentic Multimodal AI for Hyper-Personalized B2B and B2C Advertising in Competitive Markets: An AI-Driven Competitive Advertising Framework. [link](https://openreview.net/forum?id=4qzqY0PFRK)
 * [arXiv 2025] CAL-RAG: Retrieval-Augmented Multi-Agent Generation for Content-Aware Layout Design. [link](https://arxiv.org/pdf/2506.21934)
 * [WWW Companion 2025] RTBAgent: A LLM-based Agent System for Real-Time Bidding. [link](https://doi.org/10.1145/3701716.3715259)
+* [ICML 2026] DRIVE: Distributional and Retrieval-Augmented Bidding with Value Evaluation. [link](https://arxiv.org/abs/2606.14192)
   
 #### Platform-Agent
 
 * [KDD 2023] NEON: Living Needs Prediction System in Meituan. [link](https://arxiv.org/pdf/2307.16644)
 * [ACL Findings 2025] PersonaX: A Recommendation Agent-Oriented User Modeling Framework for Long Behavior Sequence. [link](https://aclanthology.org/2025.findings-acl.300/)
+* [KDD 2026] PlatformBid: An Auto-Bidding Benchmark from a Unified Advertising Platform's Perspective. [link](https://arxiv.org/abs/2607.27265)
 
 #### Consumer-Agent
 
@@ -115,8 +117,10 @@ This repository complements the survey:
 #### Consumer-Agent
 
 * [arXiv 2024] ChatShop: Interactive information seeking with language agents. [link](https://arxiv.org/pdf/2404.09911)
+* [ACL Findings 2024] Measuring Bargaining Abilities of LLMs: A Benchmark and A Buyer-Enhancement Method. [link](https://aclanthology.org/2024.findings-acl.213/)
 * [PNAS 2026] Advancing AI Negotiations: A Large-Scale Autonomous Negotiation Competition. [link](https://doi.org/10.1073/pnas.2521774123)
 * [NLLP 2025] The Automated but Risky Game: Modeling Agent-to-Agent Negotiations and Transactions in Consumer Markets. [link](https://aclanthology.org/2025.nllp-1.2.pdf)
+* [arXiv 2026] AgenticPay: A Multi-Agent LLM Negotiation System for Buyer-Seller Transactions. [link](https://arxiv.org/abs/2602.06008)
 
 #### Merchant-Agent
 
@@ -193,12 +197,62 @@ This repository complements the survey:
 
 #### Platform-Agent
 
+* [ACL Industry 2025] A Practical Approach for Building Production-Grade Conversational Agents with Workflow Graphs. [link](https://aclanthology.org/2025.acl-industry.107/)
+* [ACL Findings 2025] ChatMap: Mining Human Thought Processes for Customer Service Chatbots via Multi-Agent Collaboration. [link](https://aclanthology.org/2025.findings-acl.617/)
+* [EMNLP Industry 2025] ECom-Bench: Can LLM Agent Resolve Real-World E-commerce Customer Support Issues? [link](https://aclanthology.org/2025.emnlp-industry.19/)
 * [arXiv 2025] Higher Satisfaction, Lower Cost: A Technical Report on How LLMs Revolutionize Meituan's Intelligent Interaction Systems. [link](https://arxiv.org/pdf/2510.13291)
 * [arXiv 2025] MindFlow+: A Self-Evolving Agent for E-Commerce Customer Service. [link](https://arxiv.org/pdf/2507.18884)
 
 ---
 
 ## Part II: Applications, Infrastructure & Cross-Cutting Research
+
+> **Foundations curation note:** The five compact sections below provide only the historical and technical backbone needed to connect recent Agentic Commerce with established MAS research. Recent Agentic AI and commerce systems remain the main emphasis. Peer-reviewed research, books, and standards are labeled separately; market simulations are not treated as delegated commerce agents.
+
+### Historical Foundations — Agent Theory & Coordination
+
+* [IEEE Transactions on Computers 1980] The Contract Net Protocol: High-Level Communication and Control in a Distributed Problem Solver. [link](https://doi.org/10.1109/TC.1980.1675516)
+* [The Knowledge Engineering Review 1995] Intelligent Agents: Theory and Practice. [link](https://doi.org/10.1017/S0269888900008122)
+* [ICMAS 1995] BDI Agents: From Theory to Practice. [link](https://aaai.org/papers/icmas95-042-bdi-agents-from-theory-to-practice/)
+* [Artificial Intelligence 2000] On Agent-Based Software Engineering. [link](https://doi.org/10.1016/S0004-3702(99)00107-1)
+* [The Knowledge Engineering Review 2004] A Survey of Multi-Agent Organizational Paradigms. [link](https://doi.org/10.1017/S0269888905000317)
+* [Book 2009] Multiagent Systems: Algorithmic, Game-Theoretic, and Logical Foundations. [link](https://www.masfoundations.org/)
+
+### Historical Foundations — Communication, Negotiation & Institutions
+
+* [CIKM 1994] KQML as an Agent Communication Language. [link](https://doi.org/10.1145/191246.191322)
+* [Robotics and Autonomous Systems 1998] Negotiation Decision Functions for Autonomous Agents. [link](https://doi.org/10.1016/S0921-8890(98)00029-3)
+* [Group Decision and Negotiation 2001] Automated Negotiation: Prospects, Methods and Challenges. [link](https://doi.org/10.1023/A:1008746126376)
+* [FIPA Standard 2002] FIPA ACL Message Structure Specification. [link](https://www.fipa.org/specs/fipa00061/SC00061G.html)
+* [AAMAS 2002] Flexible Protocol Specification and Execution: Applying Event Calculus Planning Using Commitments. [link](https://doi.org/10.1145/544862.544867)
+* [Engineering Applications of Artificial Intelligence 2005] Engineering Open Environments with Electronic Institutions. [link](https://doi.org/10.1016/j.engappai.2004.11.019)
+* [IEEE Computer 2009] Commitment-Based Service-Oriented Architecture. [link](https://doi.org/10.1109/MC.2009.347)
+* [AAMAS 2009] Multiagent Commitment Alignment. [link](https://doi.org/10.1145/1558109.1558143)
+
+### Historical Foundations — Trust & Human-Agent Delegation
+
+* [CHI 1999] Principles of Mixed-Initiative User Interfaces. [link](https://doi.org/10.1145/302979.303030)
+* [Computational Intelligence 2002] Distributed Reputation Management for Electronic Commerce. [link](https://doi.org/10.1111/1467-8640.00202)
+* [Autonomous Agents and Multi-Agent Systems 2006] An Integrated Trust and Reputation Model for Open Multi-Agent Systems. [link](https://doi.org/10.1007/s10458-005-6825-4)
+* [Human Factors 2007] Designing for Flexible Interaction Between Humans and Automation: Delegation Interfaces for Supervisory Control. [link](https://doi.org/10.1518/001872007779598037)
+* [The Knowledge Engineering Review 2007] On Agent Technology for E-Commerce: Trust, Security and Legal Issues. [link](https://doi.org/10.1017/S0269888907001014)
+
+### Historical Foundations — Agent-Mediated Electronic Commerce
+
+* [The Knowledge Engineering Review 1998] Agent-Mediated Electronic Commerce: A Survey. [link](https://doi.org/10.1017/S0269888998002082)
+* [Agents 1998] The Michigan Internet AuctionBot: A Configurable Auction Server for Human and Software Agents. [link](https://strategicreasoning.org/publications/1998/the-michigan-internet-auctionbot-a-configurable-auction-server-for-human-and-software-agents/)
+* [Communications of the ACM 1999] Agents That Buy and Sell. [link](https://doi.org/10.1145/295685.295716)
+* [LNAI 2001] Agent-Mediated Electronic Commerce: Scientific and Technological Roadmap. [link](https://doi.org/10.1007/3-540-44682-6_1)
+* [IEEE Transactions on Knowledge and Data Engineering 2003] On Agent-Mediated Electronic Commerce. [link](https://doi.org/10.1109/TKDE.2003.1209014)
+
+### Technical Foundations — Learning, Markets & LLM-MAS Bridge
+
+* [JAIR 1993] A Market-Oriented Programming Environment and Its Application to Distributed Multicommodity Flow Problems. [link](https://strategicreasoning.org/publications/1993/a-market-oriented-programming-environment-and-its-application-to-distributed-multicommodity-flow-problems/)
+* [Handbook of Computational Economics 2006] Agent-Based Computational Economics: A Constructive Approach to Economic Theory. [link](https://doi.org/10.1016/S1574-0021(05)02016-2)
+* [IEEE Transactions on Systems, Man, and Cybernetics, Part C 2008] A Comprehensive Survey of Multiagent Reinforcement Learning. [link](https://doi.org/10.1109/TSMCC.2007.913919)
+* [American Economic Review 2020] Artificial Intelligence, Algorithmic Pricing, and Collusion. [link](https://doi.org/10.1257/aer.20190623)
+* [IJCAI 2024 Survey Track] Large Language Model Based Multi-agents: A Survey of Progress and Challenges. [link](https://doi.org/10.24963/ijcai.2024/890)
+* [AAMAS 2025] Learning Collusion in Episodic, Inventory-Constrained Markets. [link](https://www.ifaamas.org/Proceedings/aamas2025/pdfs/p803.pdf)
 
 ### Retail Shopping & Personal Assistants
 
@@ -219,6 +273,7 @@ This repository complements the survey:
 * [ACL 2025] Personal Travel Solver: A Preference-Driven LLM-Solver System for Travel Planning. [link](https://aclanthology.org/2025.acl-long.1339.pdf)
 * [EMNLP 2025] RETAIL: Towards Real-world Travel Planning for Large Language Models. [link](https://aclanthology.org/2025.emnlp-main.752.pdf)
 * [arXiv 2025] What Is Your AI Agent Buying? Evaluation, Implications, and Emerging Questions for Agentic E-Commerce. [link](https://arxiv.org/pdf/2508.02630)
+* [SIGIR 2026] WebMall - A Multi-Shop Benchmark for Evaluating Web Agents. [link](https://doi.org/10.1145/3805712.3808592)
 * [ACL Industry 2026] ProductResearch: Training E-Commerce Deep Research Agents via Multi-Agent Synthetic Trajectory Distillation. [link](https://aclanthology.org/2026.acl-industry.96/)
 * [arXiv 2026] Shopping Companion: A Memory-Augmented LLM Agent for Real-World E-Commerce Tasks. [link](https://arxiv.org/pdf/2603.14864)
 * [arXiv 2026] EComAgentBench: Benchmarking Shopping Agents on Long-Horizon Tasks with Distributed Hidden Intent. [link](https://arxiv.org/abs/2606.17698)
@@ -240,10 +295,14 @@ This repository complements the survey:
 * [SIGIR 2025] Insight Agents: An LLM-Based Multi-Agent System for Data Insights. [link](https://arxiv.org/pdf/2601.20048)
 * [WWW Companion 2025] RTBAgent: A LLM-based Agent System for Real-Time Bidding. [link](https://doi.org/10.1145/3701716.3715259)
 * [CVPR 2026] E-comIQ-ZH: A Human-Aligned Dataset and Benchmark for Fine-Grained Evaluation of E-commerce Posters with Chain-of-Thought. [link](https://arxiv.org/pdf/2602.21698)
+* [ICML 2026] DRIVE: Distributional and Retrieval-Augmented Bidding with Value Evaluation. [link](https://arxiv.org/abs/2606.14192)
+* [KDD 2026] PlatformBid: An Auto-Bidding Benchmark from a Unified Advertising Platform's Perspective. [link](https://arxiv.org/abs/2607.27265)
 
 ### Sales & Customer Service
 
 * [Amazon] Seller Assistant. [link](https://aws.amazon.com/solutions/amazon/one-amazon-lane/home-office/)
+* [ACL Industry 2025] A Practical Approach for Building Production-Grade Conversational Agents with Workflow Graphs. [link](https://aclanthology.org/2025.acl-industry.107/)
+* [ACL Findings 2025] ChatMap: Mining Human Thought Processes for Customer Service Chatbots via Multi-Agent Collaboration. [link](https://aclanthology.org/2025.findings-acl.617/)
 * [arXiv 2025] AI-Salesman: Towards Reliable Large Language Model Driven Telemarketing. [link](https://www.arxiv.org/pdf/2511.12133)
 * [IWSDS 2025] Exploring Personality-Aware Interactions in Salesperson Dialogue Agents. [link](https://aclanthology.org/2025.iwsds-1.6.pdf)
 * [arXiv 2025] MindFlow+: A Self-Evolving Agent for E-Commerce Customer Service. [link](https://arxiv.org/pdf/2507.18884)
@@ -283,12 +342,14 @@ This repository complements the survey:
 * [arXiv 2026] $\tau$-Rec: A Verifiable Benchmark for Agentic Recommender Systems. [link](https://arxiv.org/abs/2606.10156)
 * [arXiv 2026] Iterating Toward Better Search: A Two-Agent Simulation Framework for Evaluating Agentic Search Architectures in E-Commerce. [link](https://arxiv.org/abs/2606.12924)
 * [arXiv 2026] ShopX: A Foundation Model for Intent-to-Item Fulfillment in Agentic Shopping. [link](https://arxiv.org/abs/2606.31693)
+* [arXiv 2026] RecGPT-V3 Technical Report. [link](https://arxiv.org/abs/2607.15591)
 
 ### Platform Services & Enterprise Solutions
 
 * [OpenAI] Operator. [link](https://openai.com/index/introducing-operator/)
 * [Adobe] Adobe Experience Platform Agent Orchestrator. [link](https://business.adobe.com)
 * [Salesforce] Artificial Intelligence (AI) at Salesforce. [link](https://salesforce.com)
+* [ACL Industry 2026] Agent-Ops: A Multi-Agent Orchestration Framework for End-to-End SOP Automation in E-Commerce Operations. [link](https://aclanthology.org/2026.acl-industry.29/)
 
 ### Mobility & On-demand Services
 
@@ -329,9 +390,13 @@ This repository complements the survey:
 
 ### Negotiation & Pricing
 
+* [ACL Findings 2024] Measuring Bargaining Abilities of LLMs: A Benchmark and A Buyer-Enhancement Method. [link](https://aclanthology.org/2024.findings-acl.213/)
 * [ICML 2024] CompeteAI: Understanding the Competition Dynamics of Large Language Model-based Agents. [link](https://proceedings.mlr.press/v235/zhao24q.html)
 * [ICML 2024] How Well Can LLMs Negotiate? NegotiationArena Platform and Analysis. [link](https://proceedings.mlr.press/v235/bianchi24a.html)
+* [AAMAS 2025] Learning Collusion in Episodic, Inventory-Constrained Markets. [link](https://www.ifaamas.org/Proceedings/aamas2025/pdfs/p803.pdf)
 * [PNAS 2026] Advancing AI Negotiations: A Large-Scale Autonomous Negotiation Competition. [link](https://doi.org/10.1073/pnas.2521774123)
+* [arXiv 2026] AgenticPay: A Multi-Agent LLM Negotiation System for Buyer-Seller Transactions. [link](https://arxiv.org/abs/2602.06008)
+* [arXiv 2026] Market-Bench: Benchmarking Large Language Models on Economic and Trade Competition. [link](https://arxiv.org/abs/2604.05523)
 * [arXiv 2026] TERMS-Bench: Diagnosing LLM Negotiation Agents Beyond Deal Rate. [link](https://arxiv.org/abs/2605.13909)
 
 ### Protocols & Standards
@@ -362,8 +427,15 @@ This repository complements the survey:
 
 ### Trust, Safety & Ecosystem Measurement
 
+* [ICLR 2025] Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents. [link](https://proceedings.iclr.cc/paper_files/paper/2025/hash/5750f91d8fb9d5c02bd8ad2c3b44456b-Abstract-Conference.html)
+* [ICML 2025] Position: AI Agents Need Authenticated Delegation. [link](https://proceedings.mlr.press/v267/south25a.html)
+* [ACL 2025] The Task Shield: Enforcing Task Alignment to Defend Against Indirect Prompt Injection in LLM Agents. [link](https://aclanthology.org/2025.acl-long.1435/)
 * [ACL Findings 2025] iAgent: LLM Agent as a Shield between User and Recommender Systems. [link](https://aclanthology.org/2025.findings-acl.928/)
 * [IEEE BigData 2025] CASE: An Agentic AI Framework for Enhancing Scam Intelligence in Digital Payments. [link](https://doi.org/10.1109/BigData66926.2025.11402424)
+* [ICIS 2025] Market Design Interventions for Safer Agentic AI. [link](https://aisel.aisnet.org/icis2025/gen_ai/gen_ai/30/)
+* [ICSE-NIER 2026] Towards Verifiably Safe Tool Use for LLM Agents. [link](https://doi.org/10.1145/3786582.3786839)
+* [ACM CAIS 2026] Securing Agents With Tracked Capabilities. [link](https://doi.org/10.1145/3786335.3813127)
+* [ACL 2026] Benchmarking Web Agent Safety under E-commerce Deceptive Interfaces. [link](https://aclanthology.org/2026.acl-long.1009/)
 * [arXiv 2026] Five Attacks on x402 Agentic Payment Protocol. [link](https://arxiv.org/abs/2605.11781)
 * [arXiv 2026] SafeGEO: Understanding Generative Engine Optimization Risks in Recommendation Agents. [link](https://arxiv.org/abs/2606.28356)
 * [arXiv 2026] How Agentic Is Agentic Commerce? A Population-Scale Measurement of x402 Adoption and Authenticity. [link](https://arxiv.org/abs/2607.12575)
@@ -375,22 +447,31 @@ This repository complements the survey:
 This section covers benchmarks, datasets, simulation environments, and evaluation frameworks that cut across commerce stages and agent roles.
 
 * [NeurIPS 2022] WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents. [link](https://arxiv.org/pdf/2207.01206)
+* [ACL Findings 2024] Measuring Bargaining Abilities of LLMs: A Benchmark and A Buyer-Enhancement Method. [link](https://aclanthology.org/2024.findings-acl.213/)
 * [ICML 2024] How Well Can LLMs Negotiate? NegotiationArena Platform and Analysis. [link](https://proceedings.mlr.press/v235/bianchi24a.html)
+* [ICLR 2025] Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents. [link](https://proceedings.iclr.cc/paper_files/paper/2025/hash/5750f91d8fb9d5c02bd8ad2c3b44456b-Abstract-Conference.html)
 * [NeurIPS 2025 Datasets & Benchmarks] AgentRecBench: Benchmarking LLM Agent-based Personalized Recommender Systems. [link](https://proceedings.neurips.cc/paper_files/paper/2025/file/e2d6f7249add096e26679eade1b4cc6f-Paper-Datasets_and_Benchmarks_Track.pdf)
 * [arXiv 2025] AIM-Bench: Evaluating Decision-making Biases of Agentic LLM as Inventory Manager. [link](https://arxiv.org/abs/2508.11416)
 * [arXiv 2025] $\tau^2$-Bench: Evaluating Conversational Agents in a Dual-Control Environment. [link](https://arxiv.org/pdf/2506.07982)
 * [arXiv 2025] DeepShop: A Benchmark for Deep Research Shopping Agents. [link](https://arxiv.org/pdf/2506.02839)
 * [arXiv 2025] EcomBench: Towards Holistic Evaluation of Foundation Agents in E-commerce. [link](https://arxiv.org/pdf/2512.08868)
+* [EMNLP Industry 2025] ECom-Bench: Can LLM Agent Resolve Real-World E-commerce Customer Support Issues? [link](https://aclanthology.org/2025.emnlp-industry.19/)
 * [arXiv 2025] LLM Agent Meets Agentic AI: Can LLM Agents Simulate Customers to Evaluate Agentic-AI-based Shopping Assistants? [link](https://arxiv.org/pdf/2509.21501)
 * [KDD 2025] LocalGPT: Benchmarking and Advancing Large Language Models for Local Life Services in Meituan. [link](https://doi.org/10.1145/3711896.3737196)
 * [KDD 2026] LocalSearchBench: Benchmarking Agentic Search in Real-World Local Life Services. [link](https://doi.org/10.1145/3770855.3817466)
 * [arXiv 2025] Magentic Marketplace: An Open-Source Environment for Studying Agentic Markets. [link](https://arxiv.org/pdf/2510.25779)
 * [arXiv 2025] Multi-Agent Reinforcement Learning for Dynamic Pricing in Supply Chains: Benchmarking Strategic Agent Behaviours under Realistically Simulated Market Conditions. [link](https://arxiv.org/pdf/2507.02698)
 * [AAAI 2026] ShoppingBench: A Real-World Intent-Grounded Shopping Benchmark for LLM-based Agents. [link](https://ojs.aaai.org/index.php/AAAI/article/view/40640)
+* [SIGIR 2026] WebMall - A Multi-Shop Benchmark for Evaluating Web Agents. [link](https://doi.org/10.1145/3805712.3808592)
 * [ACL Industry 2025] SimUSER: Simulating User Behavior with Large Language Models for Recommender System Evaluation. [link](https://aclanthology.org/2025.acl-industry.5.pdf)
 * [arXiv 2025] What Is Your AI Agent Buying? Evaluation, Implications, and Emerging Questions for Agentic E-Commerce. [link](https://arxiv.org/pdf/2508.02630)
 * [ACL 2026] DeepPlanning: Benchmarking Long-Horizon Agentic Planning with Verifiable Constraints. [link](https://aclanthology.org/2026.acl-long.335/)
+* [ACL 2026] A Functionality-Grounded Benchmark for Evaluating Web Agents in E-commerce Domains. [link](https://aclanthology.org/2026.acl-long.68/)
+* [ACL 2026] Benchmarking Web Agent Safety under E-commerce Deceptive Interfaces. [link](https://aclanthology.org/2026.acl-long.1009/)
 * [CVPR 2026] E-comIQ-ZH: A Human-Aligned Dataset and Benchmark for Fine-Grained Evaluation of E-commerce Posters with Chain-of-Thought. [link](https://arxiv.org/pdf/2602.21698)
+* [KDD 2026] PlatformBid: An Auto-Bidding Benchmark from a Unified Advertising Platform's Perspective. [link](https://arxiv.org/abs/2607.27265)
+* [arXiv 2026] AgenticPay: A Multi-Agent LLM Negotiation System for Buyer-Seller Transactions. [link](https://arxiv.org/abs/2602.06008)
+* [arXiv 2026] Market-Bench: Benchmarking Large Language Models on Economic and Trade Competition. [link](https://arxiv.org/abs/2604.05523)
 * [arXiv 2026] Shopping Companion: A Memory-Augmented LLM Agent for Real-World E-Commerce Tasks. [link](https://arxiv.org/pdf/2603.14864)
 * [ICLR 2026] VitaBench: Benchmarking LLM Agents with Versatile Interactive Tasks in Real-world Applications. [link](https://arxiv.org/pdf/2509.26490)
 * [arXiv 2026] SalesSim: Benchmarking and Aligning Multimodal Language Models as Retail User Simulators. [link](https://arxiv.org/abs/2605.08334)
