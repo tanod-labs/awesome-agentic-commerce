@@ -343,6 +343,7 @@ This repository complements the survey:
 * [arXiv 2026] Iterating Toward Better Search: A Two-Agent Simulation Framework for Evaluating Agentic Search Architectures in E-Commerce. [link](https://arxiv.org/abs/2606.12924)
 * [arXiv 2026] ShopX: A Foundation Model for Intent-to-Item Fulfillment in Agentic Shopping. [link](https://arxiv.org/abs/2606.31693)
 * [arXiv 2026] RecGPT-V3 Technical Report. [link](https://arxiv.org/abs/2607.15591)
+* [RecSys 2026] Melo: A Production LLM-Powered Music Recommendation Agent. [link](https://doi.org/10.1145/3773078.3831935)
 
 ### Platform Services & Enterprise Solutions
 
