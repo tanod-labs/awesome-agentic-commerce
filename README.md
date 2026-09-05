@@ -348,6 +348,7 @@ This repository complements the survey:
 ### Platform Services & Enterprise Solutions
 
 * [OpenAI] Operator. [link](https://openai.com/index/introducing-operator/)
+* [Anthropic 2026] Claude Commerce Agents: An Open-Source Shopping and Merchant Agent Reference Implementation. [link](https://github.com/anthropics/commerce-agents)
 * [Adobe] Adobe Experience Platform Agent Orchestrator. [link](https://business.adobe.com)
 * [Salesforce] Artificial Intelligence (AI) at Salesforce. [link](https://salesforce.com)
 * [ACL Industry 2026] Agent-Ops: A Multi-Agent Orchestration Framework for End-to-End SOP Automation in E-Commerce Operations. [link](https://aclanthology.org/2026.acl-industry.29/)
