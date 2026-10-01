@@ -132,6 +132,8 @@ This repository complements the survey:
 * [EMNLP Findings 2025] Towards Personalized Conversational Sales Agents: Contextual User Profiling for Strategic Action. [link](https://aclanthology.org/2025.findings-emnlp.275.pdf)
 * [CVPR 2026 HiGen Workshop] VerbalValue: A Socially Intelligent Virtual Host for Sales-Driven Live Commerce. [link](https://higen-2025.github.io/index.html)
 
+* [arXiv 2026] Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report. [link](https://arxiv.org/abs/2608.15763)
+
 #### Platform-Agent
 
 * [KDD 2025] DiMA: An LLM-Powered Ride-Hailing Assistant at DiDi. [link](https://doi.org/10.1145/3711896.3737208)
