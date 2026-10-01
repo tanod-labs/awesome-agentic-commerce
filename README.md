@@ -131,7 +131,6 @@ This repository complements the survey:
 * [arXiv 2025] SalesRLAgent: A Reinforcement Learning Approach for Real-Time Sales Conversion Prediction and Optimization. [link](https://arxiv.org/pdf/2503.23303)
 * [EMNLP Findings 2025] Towards Personalized Conversational Sales Agents: Contextual User Profiling for Strategic Action. [link](https://aclanthology.org/2025.findings-emnlp.275.pdf)
 * [CVPR 2026 HiGen Workshop] VerbalValue: A Socially Intelligent Virtual Host for Sales-Driven Live Commerce. [link](https://higen-2025.github.io/index.html)
-
 * [arXiv 2026] Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report. [link](https://arxiv.org/abs/2608.15763)
 
 #### Platform-Agent
@@ -258,6 +257,7 @@ This repository complements the survey:
 
 ### Retail Shopping & Personal Assistants
 
+* [GitHub / Packrift] Packrift MCP: Live Packaging Catalog, Pricing, Shipping Estimates, and Human-Reviewed Checkout Handoff. [link](https://github.com/Packrift/packrift-mcp)
 * [OpenAI] Shopping Research in ChatGPT. [link](https://openai.com)
 * [OpenAI] Buy it in ChatGPT. [link](https://developers.openai.com)
 * [Perplexity] Shop like a Pro. [link](https://perplexity.ai)
@@ -290,6 +290,7 @@ This repository complements the survey:
 
 ### Advertising, Bidding & Merchant Growth
 
+* [NotFair] Google Ads MCP: Campaign Analysis and Human-Approved Advertising Changes. [link](https://github.com/nowork-studio/google-ads-mcp)
 * [TKDE 2024] Hierarchical Multi-Agent Meta-Reinforcement Learning for Cross-Channel Bidding. [link](https://ieeexplore.ieee.org/document/10817487/)
 * [EMNLP Industry 2024] IPL: Leveraging Multimodal Large Language Models for Intelligent Product Listing. [link](https://aclanthology.org/2024.emnlp-industry.52.pdf)
 * [ICLR 2025 FM-Wild Workshop] Agentic Multimodal AI for Hyper-Personalized B2B and B2C Advertising in Competitive Markets: An AI-Driven Competitive Advertising Framework. [link](https://openreview.net/forum?id=4qzqY0PFRK)
@@ -303,6 +304,7 @@ This repository complements the survey:
 ### Sales & Customer Service
 
 * [Amazon] Seller Assistant. [link](https://aws.amazon.com/solutions/amazon/one-amazon-lane/home-office/)
+* [arXiv 2026] Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report. [link](https://arxiv.org/abs/2608.15763)
 * [ACL Industry 2025] A Practical Approach for Building Production-Grade Conversational Agents with Workflow Graphs. [link](https://aclanthology.org/2025.acl-industry.107/)
 * [ACL Findings 2025] ChatMap: Mining Human Thought Processes for Customer Service Chatbots via Multi-Agent Collaboration. [link](https://aclanthology.org/2025.findings-acl.617/)
 * [arXiv 2025] AI-Salesman: Towards Reliable Large Language Model Driven Telemarketing. [link](https://www.arxiv.org/pdf/2511.12133)
@@ -351,6 +353,7 @@ This repository complements the survey:
 
 * [OpenAI] Operator. [link](https://openai.com/index/introducing-operator/)
 * [Anthropic 2026] Claude Commerce Agents: An Open-Source Shopping and Merchant Agent Reference Implementation. [link](https://github.com/anthropics/commerce-agents)
+* [TANCO / Tencent SkillHub] SkillHub Pay Adapter: Third-Party Workflow Skill for Paid Skill Approval, Fulfillment, and Settlement State Gates. [link](https://github.com/tancoai/tangke-skillhub)
 * [Adobe] Adobe Experience Platform Agent Orchestrator. [link](https://business.adobe.com)
 * [Salesforce] Artificial Intelligence (AI) at Salesforce. [link](https://salesforce.com)
 * [ACL Industry 2026] Agent-Ops: A Multi-Agent Orchestration Framework for End-to-End SOP Automation in E-Commerce Operations. [link](https://aclanthology.org/2026.acl-industry.29/)
@@ -418,6 +421,7 @@ This repository complements the survey:
 * [Skyfire] KYA & Payments for Agents. [link](https://skyfire.xyz/product/)
 * [GitHub] MachinePal – x402 AI Payment Agent for Any Website or API. [link](https://github.com/skalenetwork/machinepal)
 * [GitHub] Zen7 Payment Agent: A Dedicated Payment Network. [link](https://github.com/Zen7-Labs/Zen7-Payment-Agent)
+* [GitHub / AgentServices] AgentServices: Paid APIs for AI Agents via x402 USDC Micropayments on Base, with MCP Discovery. [link](https://github.com/vbkotecha/agentservices-api)
 * [arXiv 2025] Secure Autonomous Agent Payments: Verifying Authenticity and Intent in a Trustless Environment. [link](https://arxiv.org/pdf/2511.15712)
 * [arXiv 2026] RAILS: Verification-Native Clearing For Agentic Commerce. [link](https://arxiv.org/abs/2606.08790)
 
